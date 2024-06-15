@@ -1,0 +1,104 @@
+.frameChild,
+.frameItem {
+  transform: rotate(-180deg);
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.3px;
+  bottom: 0;
+  border-radius: var(--br-base);
+  max-height: 100%;
+}
+.frameItem {
+  height: 33px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: contain;
+}
+.rewardName,
+.x3 {
+  height: 9px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.rewardName {
+  align-self: stretch;
+}
+.x3 {
+  width: 15px;
+  text-transform: uppercase;
+}
+.rewardNameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.frameWrapper,
+.vectorGroup,
+.winMatchRewardInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.winMatchRewardInfo {
+  width: 124px;
+  flex-direction: column;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.vectorParent,
+.win10Matches {
+  display: flex;
+  position: relative;
+  transform: rotate(180deg);
+}
+.win10Matches {
+  height: 26px;
+  width: 253px;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-200);
+  text-align: left;
+  align-items: flex-end;
+  z-index: 1;
+  margin: 0 0 0-66px;
+}
+.vectorParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-4xs) var(--padding-5xs)
+    var(--padding-lg);
+  text-align: right;
+  font-size: var(--font-size-6xs);
+  color: var(--color-white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 450px) {
+  .win10Matches {
+    font-size: var(--font-size-base);
+  }
+}

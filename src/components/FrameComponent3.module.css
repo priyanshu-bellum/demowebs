@@ -1,0 +1,189 @@
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -0.5px;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  transform: rotate(-180deg);
+}
+.rewardProgressBar {
+  height: 33px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: contain;
+  transform: rotate(-180deg);
+}
+.rewardName,
+.x3 {
+  position: relative;
+}
+.rewardName {
+  align-self: stretch;
+}
+.x3 {
+  width: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+  min-width: 15px;
+}
+.rewardProgressDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+.rewardProgressDetailsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.rewardProgress,
+.rewardProgressDetailsWrapper,
+.rewardProgressWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rewardProgress {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.rewardProgressWrapper {
+  width: 124px;
+  flex-direction: column;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.playFor2,
+.vectorParent {
+  display: flex;
+  transform: rotate(180deg);
+}
+.playFor2 {
+  height: 26px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-200);
+  text-align: left;
+  align-items: flex-end;
+  z-index: 1;
+  margin: 0 0 0-78px;
+}
+.vectorParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 29px;
+  left: 170px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-4xs) var(--padding-5xs)
+    var(--padding-2xs);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.claim {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00ffd1, #8062ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.vectorGroup {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+}
+.frameGroup,
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-18xl) 0 0;
+  font-size: var(--font-size-base);
+}
+.frameGroup {
+  flex-direction: row;
+  position: relative;
+  min-width: 110px;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.claim1 {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00ffd1, #8062ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.vectorContainer {
+  height: 39px;
+  flex: 1;
+  position: relative;
+  min-width: 110px;
+  font-size: var(--font-size-base);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: right;
+  font-size: var(--font-size-6xs);
+  color: var(--color-white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 450px) {
+  .playFor2 {
+    font-size: var(--font-size-base);
+  }
+}

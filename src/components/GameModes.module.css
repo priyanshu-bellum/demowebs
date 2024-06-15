@@ -1,0 +1,232 @@
+.engageInA {
+  margin: 0;
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+  z-index: 2;
+}
+.modeDescriptions {
+  width: 357px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enterADystopian {
+  margin: 0;
+  align-self: stretch;
+  height: 30px;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+  min-height: 30px;
+  z-index: 2;
+}
+.factionIcons,
+.factionIcons1,
+.factionIcons2 {
+  height: calc(100% - 3.8px);
+  width: 9px;
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-11xs);
+  transform-origin: 0 0;
+}
+.factionIcons {
+  top: -0.04px;
+  bottom: 3.84px;
+  left: 6.4px;
+  background: linear-gradient(187.43deg, #00ffd1, #21105a);
+  transform: rotate(45deg);
+}
+.factionIcons1,
+.factionIcons2 {
+  top: 6.36px;
+  right: 27.6px;
+  bottom: -2.56px;
+  border: 1px solid var(--color-aquamarine);
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+  opacity: 0.5;
+}
+.factionIcons2 {
+  top: -0.04px;
+  right: -2.6px;
+  bottom: 3.84px;
+  transform: rotate(45deg);
+}
+.factionImage,
+.factions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.factions {
+  height: 12.8px;
+  width: 60.4px;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-2xs);
+  z-index: 2;
+}
+.factionImage {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.dystopianFuture {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 340px;
+  max-width: 100%;
+  text-align: center;
+  color: var(--color-gray-400);
+}
+.takeOnSolo {
+  margin: 0;
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+  z-index: 2;
+}
+.modeDescriptions1,
+.survivalChallenge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.modeDescriptions1 {
+  width: 357px;
+  flex-direction: column;
+  padding: var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+.survivalChallenge {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-7xl);
+}
+.heroes1 {
+  height: 116px;
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  -webkit-text-stroke: 1.6px transparent;
+  opacity: 0.3;
+  max-width: 100%;
+}
+.heroIllustration {
+  position: absolute;
+  top: 230px;
+  left: 897px;
+  filter: blur(200.2px);
+  border-radius: var(--br-980xl);
+  background: linear-gradient(180deg, rgba(106, 81, 211, 0.5), #00ffd1);
+  width: 152px;
+  height: 152px;
+  z-index: 2;
+}
+.heroDetailsIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 1011px;
+  object-fit: cover;
+  z-index: 6;
+}
+.heroImage {
+  height: 567px;
+  width: 1049px;
+  position: absolute;
+  margin: 0 !important;
+  right: -254px;
+  bottom: -450px;
+}
+.heroes {
+  width: 580px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.heroesWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-71xl-7);
+  color: transparent;
+}
+.gameModeDescription,
+.gameModes,
+.heroesWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.gameModeDescription {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-48xl-2);
+}
+.gameModes {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-58xl) var(--padding-204xl-4) var(--padding-55xl);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 800px) {
+  .dystopianFuture {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .heroes1 {
+    font-size: var(--font-size-26xl);
+  }
+  .gameModeDescription {
+    gap: var(--gap-15xl);
+  }
+  .gameModes {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-19xl);
+    padding-bottom: var(--padding-126xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heroes1 {
+    font-size: var(--font-size-8xl);
+  }
+  .gameModeDescription {
+    gap: var(--gap-mid);
+  }
+}

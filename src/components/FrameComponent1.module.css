@@ -1,0 +1,624 @@
+.rewardName,
+.x3 {
+  position: relative;
+}
+.rewardName {
+  align-self: stretch;
+}
+.x3 {
+  width: 13px;
+  display: flex;
+  align-items: flex-end;
+  min-width: 13px;
+}
+.frameWrapper,
+.rewardNameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.rewardNameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  opacity: 0.5;
+  z-index: 1;
+}
+.frameWrapper {
+  width: 84px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 8px;
+  left: 7.5px;
+  border-radius: var(--br-5xs);
+  width: 58px;
+  height: 33px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorParent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.referAFriend {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-300);
+  z-index: 1;
+}
+.frameDiv {
+  width: 319.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-lg) var(--padding-lg)
+    var(--padding-39xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs-5);
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: -91px;
+  width: 170px;
+  height: 39px;
+  object-fit: contain;
+}
+.claim {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: -43px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00ffd1, #8062ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.vectorGroup {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+}
+.frameWrapper1 {
+  width: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.claim1 {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00ffd1, #8062ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.vectorContainer {
+  height: 39px;
+  width: 170px;
+  position: relative;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.frameContainer {
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.rewardName1 {
+  align-self: stretch;
+  position: relative;
+}
+.rewardNameGroup,
+.x31 {
+  display: flex;
+  align-items: flex-end;
+}
+.x31 {
+  width: 13px;
+  position: relative;
+  min-width: 13px;
+}
+.rewardNameGroup {
+  width: 62px;
+  flex-direction: column;
+  justify-content: flex-start;
+  opacity: 0.5;
+  z-index: 1;
+}
+.frameChild1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  border-radius: var(--br-5xs);
+  width: 58px;
+  height: 33px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorParent1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.firstKill {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-300);
+  text-align: left;
+  z-index: 1;
+}
+.frameChild2,
+.frameParent4 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameParent4 {
+  width: 243px;
+  top: -37px;
+  right: -188px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-lg) var(--padding-lg)
+    var(--padding-52xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs-5);
+}
+.frameChild2 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: -0.5px;
+  border-radius: var(--br-base);
+  max-height: 100%;
+  transform: rotate(-180deg);
+}
+.frameChild3 {
+  height: 33px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: contain;
+  transform: rotate(-180deg);
+}
+.rewardName2 {
+  align-self: stretch;
+  position: relative;
+}
+.x32 {
+  width: 15px;
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+  min-width: 15px;
+}
+.rewardNameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+.frameWrapper3 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.frameWrapper2,
+.frameWrapper3,
+.vectorParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.frameWrapper2 {
+  width: 124px;
+  flex-direction: column;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.playFor2 {
+  height: 26px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  transform: rotate(180deg);
+  z-index: 1;
+  margin: 0 0 0-78px;
+}
+.frameParent3,
+.vectorParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.vectorParent2 {
+  flex: 1;
+  padding: var(--padding-lg) var(--padding-4xs) var(--padding-5xs)
+    var(--padding-2xs);
+  box-sizing: border-box;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+.frameParent3 {
+  align-self: stretch;
+}
+.frameChild4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.claim2 {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00ffd1, #8062ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.vectorParent4 {
+  width: 170px;
+  height: 39px;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 231px;
+  max-width: 100%;
+}
+.frameChild5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.claim3 {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #00ffd1, #8062ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.vectorParent5 {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+}
+.frameWrapper4 {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-18xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.frameGroup {
+  width: 885px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 885px;
+  max-width: 100%;
+}
+.rewardName3 {
+  align-self: stretch;
+  position: relative;
+}
+.x33 {
+  width: 13px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-width: 13px;
+}
+.frameWrapper6,
+.rewardNameParent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.rewardNameParent1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  opacity: 0.5;
+  z-index: 1;
+}
+.frameWrapper6 {
+  width: 78px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.frameChild6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild7 {
+  position: absolute;
+  top: 8px;
+  left: 7.8px;
+  border-radius: var(--br-5xs);
+  width: 58px;
+  height: 33px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorParent6 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.2px;
+  bottom: 0;
+  left: 0;
+}
+.winAMatch {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-gray-300);
+  z-index: 1;
+}
+.frameParent6,
+.frameWrapper5 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent6 {
+  width: 281px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-lg) var(--padding-lg)
+    var(--padding-42xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs-5);
+}
+.frameWrapper5 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.winMatchClaimButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.claim4 {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.winMatchClaimButton {
+  width: 170px;
+  height: 39px;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.frameParent,
+.frameParent5 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent5 {
+  width: 395px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-width: 395px;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 102%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--font-size-6xs);
+  color: var(--color-white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 1300px) {
+  .frameGroup,
+  .frameParent5,
+  .frameParent6 {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frameGroup {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .referAFriend {
+    font-size: var(--font-size-base);
+  }
+  .frameDiv {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .firstKill,
+  .playFor2,
+  .winAMatch {
+    font-size: var(--font-size-base);
+  }
+  .frameParent6 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameParent5 {
+    gap: var(--gap-3xl);
+    min-width: 100%;
+  }
+}
